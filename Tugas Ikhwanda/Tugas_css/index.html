@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Login</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #ffffff;
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .login-box {
+        background-color: #fd0606;
+        border: 1px solid #e6e6e6;
+        width: 300px;
+        padding: 20px;
+        position: absolute;
+        right: 20%;
+      }
+      .logo {
+        position: relative;
+        width: 100px;
+        margin-bottom: 20px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #efefef;
+        font-size: 14px;
+      }
+      .btn-primary {
+        background-color: #3897f0;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-box">
+        <img src="img/instagram.png" alt="Instagram Logo" class="logo" />
+        <div class="form-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Username or email"
+          />
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" placeholder="Password" />
+        </div>
+        <button class="btn-primary">Log In</button>
+      </div>
+    </div>
+  </body>
+</html>
